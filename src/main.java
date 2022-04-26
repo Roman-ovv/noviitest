@@ -28,6 +28,7 @@ public  class main {
             number = scanner.nextInt();
         } else {
             System.out.println("Ошибка, Допустимо только целое число");
+            System.out.println("Ошибка");
             scanner.next();
             number = getInt();
         }
